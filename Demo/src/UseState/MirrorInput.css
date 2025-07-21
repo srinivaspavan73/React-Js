@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inpt{
+    padding: 12px;
+    font-size: 18px;
+    margin-right: 11px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+.btn1{
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: orange;
+}
+.para{
+    font-size: 20px;
+    margin-top: 11px;
+}

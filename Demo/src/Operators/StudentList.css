@@ -1,0 +1,36 @@
+.student-list{
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+.student-item{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+}
+.rank{
+    font-weight: bold;
+    width: 60px;
+}
+.name{
+    flex-grow: 1;
+    text-align: left;
+}
+.score{
+    width: 120px;
+    text-align: right;
+}
+.badge{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.title{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
