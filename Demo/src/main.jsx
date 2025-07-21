@@ -6,13 +6,15 @@ import { BrowserRouter } from 'react-router-dom'
 // import './FormValidate/styles.css'
 // import './Route/index.css'
 // import Salaar from './UseEffect/Salaar.jsx'
-import Timer from './UseRef/Timer.jsx'
+// import Timer from './UseRef/Timer.jsx'
+import ProductCardGenerator from './Project/Home2.jsx'
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     {/* <App/> */}
     {/* <App/> */}
     {/* <Salaar/> */}
-    <Timer/>
+    {/* <Timer/> */}
+    <ProductCardGenerator/>
      </BrowserRouter>
 )

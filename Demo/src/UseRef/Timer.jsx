@@ -25,7 +25,7 @@ function Timer() {
   };
 
   function focusInput() {
-    inoutRef.current.style.border="2px solid red"; 
+    inoutRef.current.style.border="4px solid red"; 
   }
   return (
     <div>
