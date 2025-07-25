@@ -1,8 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
-import PropDrill from './Context&prop_Drilling/PropDrill.jsx'
-import './Context&prop_Drilling/context.css'
+import './Route/VoteApp/Styles.css'
+// import Context from './Context&prop_Drilling/Context.jsx'
+import VotingApp from './Route/VoteApp/VotingApp.jsx'
+// import Theme from './Context&prop_Drilling/Theme.jsx'
+// import App from './Final_Project/App2.jsx'
+// import Reducer from './P/Reducer.jsx'
+// import PropDrill from './Context&prop_Drilling/PropDrill.jsx'
+// import './Context&prop_Drilling/context.css'
 // import App from './Route/App.jsx'
 // import App from './FormValidate/App.jsx'
 // import './FormValidate/styles.css'
@@ -13,11 +19,6 @@ import './Context&prop_Drilling/context.css'
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-    {/* <App/> */}
-    {/* <App/> */}
-    {/* <Salaar/> */}
-    {/* <Timer/> */}
-    {/* <ProductCardGenerator/> */}
-    <PropDrill/>
-     </BrowserRouter>
+    <VotingApp />
+     </BrowserRouter>,
 )
